@@ -23,14 +23,13 @@ public class ClientApplication {
             switch (command) {
                 case 1:
                     readOperation();
-                    break;
                 case 2:
                     writeOperation();
-                    break;
                 case 3:
                     flag = false;
             }
         }
+
     }
 
     public static void readOperation() {
